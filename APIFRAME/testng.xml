@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    
+    <class name="org.testing.testscripts.TC1_postRequest"/>
+    <class name="org.testing.testscripts.TC2_GetRequest"/>
+    <class name="org.testing.testscripts.TC3_Getall"/>
+    <class name="org.testing.testscripts.TC4_GetAll_FetchId"/>
+      <class name="org.testing.testscripts.TC5_putRequest"/>
+      <class name="org.testing.testscripts.TC6_delete"/>
+            
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

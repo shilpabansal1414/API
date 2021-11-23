@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testing.testscripts.TC1_postRequest">
+        <methods>
+          <include name="firstTC"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC1_postRequest -->
+      <class name="org.testing.testscripts.TC5_putRequest">
+        <methods>
+          <include name="tc5"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC5_putRequest -->
+      <class name="org.testing.testscripts.TC2_GetRequest">
+        <methods>
+          <include name="TC2"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC2_GetRequest -->
+      <class name="org.testing.testscripts.TC3_Getall">
+        <methods>
+          <include name="tc3"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC3_Getall -->
+      <class name="org.testing.testscripts.TC6_delete">
+        <methods>
+          <include name="TC6"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC6_delete -->
+      <class name="org.testing.testscripts.TC4_GetAll_FetchId">
+        <methods>
+          <include name="tc4"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC4_GetAll_FetchId -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
